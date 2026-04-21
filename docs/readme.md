@@ -1,46 +1,75 @@
-# GRC Risk Assessment – Fintech Vendor Environment
+# GRC Vendor Risk Assessment – Fintech Environment
 
 ## Overview
-This project demonstrates a full Governance, Risk, and Compliance (GRC) assessment for a cloud-based fintech environment.
+This project presents a full Governance, Risk, and Compliance (GRC) assessment focused on third-party (vendor) risk in a fintech environment.
+
+The assessment simulates a real-world scenario where a cloud-based SaaS vendor manages sensitive customer data (PII), authentication systems, and infrastructure.
+
+---
+
+## Objectives
+- Identify critical assets and risks
+- Evaluate vulnerabilities and threats
+- Design preventive, detective, and corrective controls
+- Perform control mapping aligned with ISO 27001 and NIST
+- Conduct a gap analysis with actionable recommendations
+
+---
 
 ## Scope
 - Customer Data (PII)
-- SaaS Application
-- Cloud Infrastructure
+- User Credentials
+- SaaS Application Platform
+- Cloud Infrastructure (Vendor)
 - API Integrations
 - Backup Systems
 
-## Key Components
-- Asset Inventory
-- Risk Register
-- Control Mapping (ISO 27001 & NIST)
-- Gap Analysis
-- Security Recommendations
+---
 
-## Key Risks
+## Key Risks Identified
 - Data Breach
 - Unauthorized Access
 - Cloud Misconfiguration
-- Insider Threat
+- Insider Threat (Vendor)
+- Man-in-the-Middle (MitM)
 - Ransomware
 
+---
+
 ## Controls Implemented
-- MFA & Encryption
-- SIEM Monitoring
-- IAM & RBAC
-- CSPM
+- Multi-Factor Authentication (MFA)
+- SIEM Monitoring & Alerting
+- IAM & Least Privilege
+- Privileged Access Management (PAM)
+- Cloud Security Posture Management (CSPM)
 - TLS Enforcement
 - Immutable Backups
 
-## Frameworks Used
+---
+
+## Gap Analysis Summary
+Critical gaps identified include:
+- Lack of MFA enforcement
+- No real-time SIEM monitoring
+- Missing RBAC and IAM controls
+- No CSPM implementation
+- Weak encryption practices
+- Lack of backup immutability
+
+---
+
+## Framework Alignment
+Controls were mapped to:
 - NIST Cybersecurity Framework
 - ISO/IEC 27001
 
-## Files Included
-- Risk Register (Excel)
-- Control Mapping
-- Gap Analysis
-- Final Report (PDF)
+---
+
+## Project Structure
+
+
+---
 
 ## Author
-Rolando M. Huayamave Torres
+Rolando M. Huayamave Torres  
+GRC Analyst | ISO 27001 | Risk & Compliance
