@@ -1,3 +1,11 @@
+## Final Report
+[Download Full Risk Assessment Report](docs/Rolando_Huayamave_Vendor_Risk_Assessment.pdf)
+
+## Assumptions
+- Vendor operates in AWS cloud environment
+- Sensitive customer data (PII) is processed and stored
+- APIs are exposed externally for integration
+
 # Vendor Risk Assessment – Fintech Environment
 
 ## Overview
