@@ -6,6 +6,14 @@
 - Sensitive customer data (PII) is processed and stored
 - APIs are exposed externally for integration
 
+## Business Impact
+Failure to address these risks could result in:
+
+- Data breaches affecting customer trust
+- Regulatory penalties and compliance violations
+- Financial losses due to ransomware attacks
+- Service disruption in critical systems
+- 
 # Vendor Risk Assessment – Fintech Environment
 
 ## Overview
